@@ -1,0 +1,67 @@
+HTTP/1.0 503 Service Unavailable
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidores No Disponibles</title>
+    <style>
+        /* Estilos CSS aquí */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .apology {
+            font-size: 24px;
+            color: #ff0000;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Servidores No Disponibles</h1>
+    </header>
+    <div class="container">
+        <h2 class="apology">Disculpa las molestias</h2>
+        <p>Lamentablemente, nuestros servidores no están disponibles en este momento. Estamos trabajando para solucionar el problema lo más rápido posible. Por favor, inténtalo de nuevo más tarde.</p>
+        
+        <!-- Contenedor para centrar la imagen -->
+        <div style="text-align: center;">
+            <!-- Imagen de servidor con fallas -->
+            <img src="https://i.ibb.co/RPw6gzN/error-404-page-not-found-error-server-error-512.webp" alt="error-404-page-not-found-error-server-error-512" border="0">
+        </div>
+    </div>
+</body>
+</html>
