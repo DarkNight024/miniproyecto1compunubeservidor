@@ -1,0 +1,78 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'consul' ]
+1 info using npm@8.5.1
+2 info using node@v12.22.9
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 6ms
+6 timing config:load:builtin Completed in 7ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/vagrant/consulService/app/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 11ms
+11 timing config:load:file:/home/vagrant/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 2ms
+18 timing config:load Completed in 29ms
+19 timing npm:load:configload Completed in 29ms
+20 timing npm:load:setTitle Completed in 1ms
+21 timing config:load:flatten Completed in 6ms
+22 timing npm:load:display Completed in 8ms
+23 verbose logfile /home/vagrant/.npm/_logs/2023-08-24T05_02_57_009Z-debug-0.log
+24 timing npm:load:logFile Completed in 8ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 49ms
+28 timing arborist:ctor Completed in 3ms
+29 timing arborist:ctor Completed in 0ms
+30 timing idealTree:init Completed in 27ms
+31 timing idealTree:userRequests Completed in 6ms
+32 silly idealTree buildDeps
+33 silly fetch manifest consul@*
+34 http fetch GET 200 https://registry.npmjs.org/consul 693ms (cache miss)
+35 silly placeDep ROOT consul@1.2.0 OK for:  want: *
+36 silly fetch manifest papi@^1.1.0
+37 http fetch GET 200 https://registry.npmjs.org/papi 482ms (cache miss)
+38 timing idealTree:#root Completed in 1200ms
+39 silly placeDep ROOT papi@1.1.2 OK for: consul@1.2.0 want: ^1.1.0
+40 timing idealTree:node_modules/consul Completed in 5ms
+41 timing idealTree:node_modules/papi Completed in 0ms
+42 timing idealTree:buildDeps Completed in 1207ms
+43 timing idealTree:fixDepFlags Completed in 1ms
+44 timing idealTree Completed in 1246ms
+45 timing reify:loadTrees Completed in 1249ms
+46 timing reify:diffTrees Completed in 2ms
+47 silly reify moves {}
+48 timing reify:retireShallow Completed in 1ms
+49 timing reify:createSparse Completed in 7ms
+50 timing reify:loadBundles Completed in 0ms
+51 silly audit bulk request { consul: [ '1.2.0' ], papi: [ '1.1.2' ] }
+52 silly tarball no local data for papi@https://registry.npmjs.org/papi/-/papi-1.1.2.tgz. Extracting by manifest.
+53 silly tarball no local data for consul@https://registry.npmjs.org/consul/-/consul-1.2.0.tgz. Extracting by manifest.
+54 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 312ms
+55 timing auditReport:getReport Completed in 315ms
+56 silly audit report {}
+57 timing auditReport:init Completed in 0ms
+58 timing reify:audit Completed in 317ms
+59 http fetch GET 200 https://registry.npmjs.org/papi/-/papi-1.1.2.tgz 345ms (cache miss)
+60 timing reifyNode:node_modules/papi Completed in 369ms
+61 http fetch GET 200 https://registry.npmjs.org/consul/-/consul-1.2.0.tgz 358ms (cache miss)
+62 timing reifyNode:node_modules/consul Completed in 396ms
+63 timing reify:unpack Completed in 398ms
+64 timing reify:unretire Completed in 0ms
+65 timing build:queue Completed in 2ms
+66 timing build:deps Completed in 3ms
+67 timing build Completed in 3ms
+68 timing reify:build Completed in 4ms
+69 timing reify:trash Completed in 0ms
+70 timing reify:save Completed in 15ms
+71 timing reify Completed in 1766ms
+72 silly ADD node_modules/papi
+73 silly ADD node_modules/consul
+74 timing command:install Completed in 1779ms
+75 verbose exit 0
+76 timing npm Completed in 2269ms
+77 info ok
